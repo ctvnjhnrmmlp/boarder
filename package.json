@@ -1,0 +1,32 @@
+{
+  "name": "boarder-drawing-app-development",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "@vitejs/plugin-legacy": "^2.3.1",
+    "autoprefixer": "^10.4.13",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.0",
+    "sass": "^1.56.1",
+    "stylelint": "^14.15.0",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-standard": "^29.0.0",
+    "terser": "^5.16.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vite-babel-plugin": "^0.0.2",
+    "vite-plugin-preload": "^0.1.8"
+  }
+}

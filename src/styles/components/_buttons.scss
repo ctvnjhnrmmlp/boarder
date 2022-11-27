@@ -1,0 +1,53 @@
+
+button {
+  cursor: pointer;
+  border: 0;
+
+  &:active, &:focus {
+    background-color: gray;
+  }
+}
+
+.button {
+  &__color {
+    width: min(50%, 2rem);
+    padding: 1rem;
+  }
+
+  &__black {
+    background-color: #0A0A0A;
+  }
+
+  &__red {
+    background-color: #f01f46;
+  }
+
+  &__blue {
+    background-color: #2f6abd;
+  }
+
+  &__orange {
+    background-color: #f0a31f;
+  }
+
+  &__yellow {
+    background-color: #f5f242;
+  }
+
+  &__green {
+    background-color: #42f56c;
+  }
+
+  &__violet {
+    background-color: #d142f5;
+  }
+
+  &__brown {
+    background-color: #964B00;
+  }
+
+  &__tool {
+    width: min(50%, 2rem);
+    padding: 0.3rem;
+  }
+}

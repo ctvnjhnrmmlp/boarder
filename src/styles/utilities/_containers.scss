@@ -1,0 +1,47 @@
+@use '../constants/extends' as *;
+
+.container {
+  & {
+    @extend %m-i-auto;
+    width: min(130.625rem, 93%);
+  }
+
+  &--content {
+    &__buttons, &__footer, &__toolbars {
+      @extend %ds-flex;
+    }
+
+    &__buttons, &__toolbars {
+      @extend %jc-space-evenly;
+    }
+
+    &__footer, &__toolbars {
+      @extend %ai-center;
+    }
+
+    &__buttons {
+      @extend %m-i-auto;
+
+      margin: 5vh 0 5vh 0;
+      width: 90%;
+    }
+
+    &__footer {
+      flex-direction: row;
+    }
+
+    &__toolbars {
+      padding: 1vh 0 1vh 0;
+      width: 100%;
+    }
+  }
+
+  &__colors, &__tools {
+    @extend %ds-flex;
+    @extend %jc-center;
+
+    flex-wrap: wrap;
+    width: 50%;
+  }
+}
+

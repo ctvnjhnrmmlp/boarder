@@ -1,0 +1,14 @@
+@use '../constants/extends' as *;
+
+body {
+  @extend %bgc-white;
+}
+
+canvas {
+  @extend %bgc-white;
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  cursor: crosshair;
+}

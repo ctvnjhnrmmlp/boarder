@@ -1,0 +1,6 @@
+@use '../constants/extends' as *;
+
+footer {
+  @extend %bgc-black;
+  @extend %w-100;
+}

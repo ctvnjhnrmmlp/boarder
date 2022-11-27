@@ -1,0 +1,32 @@
+{
+  "name": "the-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --config vite.config.js",
+    "build": "tsc && vite build --config vite.config.js",
+    "preview": "vite preview --config vite.config.js"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "@vitejs/plugin-legacy": "^2.3.0",
+    "autoprefixer": "^10.4.13",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "2.7.1",
+    "sass": "^1.53.0",
+    "stylelint": "^14.14.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^29.0.0",
+    "terser": "^5.15.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vite-babel-plugin": "^0.0.2",
+    "vite-plugin-preload": "^0.1.8"
+  }
+}

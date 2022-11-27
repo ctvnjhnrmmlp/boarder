@@ -1,0 +1,53 @@
+@use '../constants/variables' as *;
+
+%bgc-black {
+  background-color: $black;
+}
+
+%bgc-white {
+  background-color: $white;
+}
+
+%fc-black {
+  color: $black;
+}
+
+%fc-white {
+  color: $white;
+}
+
+%trs-one {
+  transition: 0.5s ease;
+}
+
+%w-100 {
+  width: 100%;
+}
+
+%ds-flex {
+  display: flex;
+}
+
+%m-i-auto {
+  margin-inline: auto;
+}
+
+%jc-center {
+  justify-content: center;
+}
+
+%ai-center {
+  align-items: center;
+}
+
+%jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+%fd-column {
+  flex-direction: column;
+}
+
+%mg-l-auto {
+  margin-left: auto;
+}
